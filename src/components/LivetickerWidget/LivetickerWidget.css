@@ -1,0 +1,30 @@
+.navileiste {
+    display: none;
+}
+
+.liveticker_header_next_match_datum {
+    text-align: left;
+}
+
+.navileiste_zusatz {
+    display: none;
+}
+
+.liveticker_uhr_text {
+    display: none;
+}
+
+#ergebnis {
+    color: black !important;
+}
+
+.global_team_url {
+    color: black !important;
+}
+
+@media (max-width: 450px) {
+    .img-cdn-wrapper.team {
+        width: 75px !important;
+        height: 75px !important;
+    }
+}

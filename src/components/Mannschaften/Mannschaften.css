@@ -1,0 +1,143 @@
+.mannschaftenContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 64px;
+}
+
+.siteContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.mannschaftButton {
+    border-radius: 0;
+    border: 1px solid black;
+    background-color: white;
+    height: 48px;
+    font-size: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+    cursor: pointer;
+    width: 198px;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+.buttonBox {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.fupa_widget_navi {
+    text-align: center !important;
+}
+
+.fupa_widget_navi a {
+    font-size: 16px !important;
+}
+
+.spielerkader tbody tr td {
+    display: none;
+}
+
+.spielerkader tbody tr th {
+    display: none;
+}
+
+.top_header_big {
+    display: block !important;
+    width: 100%;
+}
+
+.spielername {
+    display: block !important;
+    border-bottom: 0 !important;
+}
+
+.bild {
+    display: block !important;
+    border-bottom: 0 !important;
+}
+
+.spielerkader tbody tr {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.spielerkader {
+    margin-top: 0 !important;
+}
+
+.trainer {
+    margin-bottom: 0 !important;
+}
+
+a .img-cdn-wrapper.team {
+    width: 25px !important;
+    height: 25px !important;
+}
+
+@media (max-width: 400px) {
+    .tab_aufab {
+        display: none;
+    }
+}
+
+@media (max-width: 370px) {
+    .tab_aufab {
+        display: none;
+    }
+}
+
+@media (max-width: 544px) {
+    .fupa_widget_navi a {
+        font-size: 12px !important;
+    }
+}
+
+.d-none {
+    display: none !important;
+}
+
+.fupa_widget_navi a {
+    font-size: 16px !important;
+}
+
+@media (max-width: 560px) {
+    img-cdn-wrapper team-image {}
+}
+
+.archiv tbody tr {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #e7e7e7;
+    width: 100%;
+}
+
+.archiv tbody tr th {
+    width: -moz-available;
+}
+
+.archiv tbody tr td {
+    width: unset;
+    border-bottom: 0 !important;
+}
+
+.team-image {
+    width: unset !important;
+}
+
+@media (max-width: 380px) {
+    .team-image {
+        width: 100% !important;
+    }
+}

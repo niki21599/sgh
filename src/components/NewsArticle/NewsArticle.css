@@ -1,0 +1,36 @@
+.articleContainer {
+    text-align: left;
+    white-space: break-spaces;
+    font-size: 18px;
+}
+
+.newsArticleContainer {
+    max-width: 1000px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 64px;
+}
+
+.article-img {
+    width: 100%;
+}
+
+.articleHeading {
+    margin-bottom: 0;
+}
+
+.subHeading {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 4px;
+}
+
+.outerContainerNews {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1126px) {
+    #leftNewsArticle {
+        display: none;
+    }
+}

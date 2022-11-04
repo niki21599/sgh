@@ -1,0 +1,41 @@
+.vorstandsContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+.outerContainerVorstand {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+h2 {
+    margin-top: 0;
+    padding-top: 16px;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    padding-bottom: 48px;
+}
+
+@media (max-width: 1200px) {
+    .vorstandsContainer {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 790px) {
+    .vorstandsContainer {
+        grid-template-columns: auto;
+    }
+}

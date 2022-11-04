@@ -1,0 +1,53 @@
+.sponsor-heading {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 36px;
+}
+
+.sponsorContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 16px;
+    max-width: 800px;
+    row-gap: 16px;
+}
+
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 64px;
+    padding-right: 36px;
+    padding-left: 36px;
+}
+
+h2 {
+    margin-top: 0;
+    padding-top: 16px;
+}
+
+.mainSponsor {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 64px;
+    padding-right: 36px;
+    padding-left: 36px;
+}
+
+@media (max-width: 700px) {
+    .sponsorContainer {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .sponsorContainer {
+        grid-template-columns: auto;
+    }
+    .mainSponsor {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .outerContainer {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+}

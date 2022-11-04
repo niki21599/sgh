@@ -1,0 +1,85 @@
+.formFields {
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer {
+    width: 500px;
+}
+
+.left {
+    text-align: left;
+}
+
+.formContainerWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.padding-bottom-l {
+    padding-bottom: 60px;
+}
+
+.sendBtn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid black;
+    width: fit-content;
+    align-self: flex-end;
+}
+
+.sendBtn:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.textfeld {
+    height: 36px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: black;
+    padding-left: 8px;
+    border-radius: 5px;
+}
+
+.textarea {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: black;
+    padding-left: 8px;
+    border-radius: 5px;
+    height: 160px;
+    resize: none;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 560px) {
+    .formContainer {
+        width: 90%;
+    }
+    .smallSize {
+        font-size: 48px;
+    }
+}
+
+.errorMeldung {
+    color: red;
+    margin-bottom: 8px;
+}

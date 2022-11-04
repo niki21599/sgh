@@ -1,0 +1,99 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 64px;
+    background-color: white;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.sgh-logo {
+    height: 56px;
+    margin-right: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left-container-header {
+    display: flex;
+    align-items: center;
+}
+
+.menu-point {
+    color: black;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.responsive-slogan {
+    display: none;
+}
+
+.responsive-menu {
+    display: none !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    transition: all 3s ease;
+}
+
+@media (max-width: 910px) {
+    .slogan {
+        display: none;
+    }
+}
+
+@media (max-width: 622px) {
+    .linkBox {
+        display: none;
+    }
+    .responsive-slogan {
+        display: block;
+    }
+    .responsive-menu {
+        display: block !important;
+        transition: 5s;
+    }
+    .sgh-logo {
+        margin-right: 0;
+    }
+    .header {
+        padding-left: 24px;
+        padding-right: 16px;
+    }
+}
+
+@media (max-width: 465px) {
+    .responsive-slogan {
+        display: none;
+    }
+}
+
+.dropdown {
+    width: 100vw;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.responsive-menuPoint {
+    color: black !important;
+    font-size: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.lastPoint {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}

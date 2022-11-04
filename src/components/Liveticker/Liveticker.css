@@ -1,0 +1,12 @@
+.livetickerFrame {
+    max-width: 700px;
+    width: 90%;
+    margin-bottom: 64px;
+}
+
+.livetickerSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

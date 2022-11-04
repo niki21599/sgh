@@ -1,0 +1,20 @@
+.tab_wins {
+    display: none;
+}
+
+.tab_remis {
+    display: none;
+}
+
+.tab_loses {
+    display: none;
+}
+
+.tab_goals {
+    display: none;
+}
+
+.liga_tabelle {
+    margin-top: 0 !important;
+    border-radius: 10px !important;
+}
