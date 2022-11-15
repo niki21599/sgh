@@ -6,30 +6,32 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import "./SponsorCard.css";
 
 export default function SponsorCard({ path, sponsorName }) {
   return (
     <div>
-      <Card sx={{ maxWidth: 250, borderRadius: 0 }}>
-        <CardMedia
-          component="img"
-          image={path}
-          alt="green iguana"
-          sx={{ borderBottom: "1px solid rgba(0,0,0,0.1)" }}
-        />
-
-        <CardContent
-          sx={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "0 !important",
-          }}
-        >
-          <Typography gutterBottom variant="h5" component="div">
-            {sponsorName}
-          </Typography>
-        </CardContent>
+      <Card
+        sx={{
+          width: 250,
+          borderRadius: 0,
+          padding: "10px",
+          height: "170px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        {path ? (
+          <CardMedia
+            component="img"
+            image={path}
+            className="sponsor-img"
+            alt={sponsorName}
+          />
+        ) : (
+          <Typography variant="h4">{sponsorName}</Typography>
+        )}
       </Card>
     </div>
   );
